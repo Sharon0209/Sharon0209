@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-a" />
+	<title>JUST DANCE! </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.8">
+	<link rel="stylesheet" href="blueberry.css" />
+	<style type="text/css">
+	
+	*{
+		margin:0;
+		border:0;
+		padding:0;
+	}
+	body {
+		background-image: url('images/purpletexture2.jpg');
+		<!-- background: #f0f0f0; -->
+		font: 14px/20px Arial, San-Serif;
+		color: #555;
+		margin:0;
+	}
+	h1 {
+		text-align: center;
+		font-size: 180%;
+		line-height:120%;
+		padding: 5% 5%;
+	}
+	h2 {
+		text-decoration: underline;
+		line-height:280%;
+		padding-left: 2%;
+	}
+	h3 {
+		line-height: 110px;
+		padding: 5% 5%;
+	}
+	p {
+		padding: 1.5%;
+	}
+	img {
+		text-align: center;
+		max-width:100%;
+		height: auto;
+		width: auto;
+	}
+	a {
+		color: #FFF;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	a:hover {
+		color: #FFF;
+		text-decoration: underline;
+	}
+	header {
+		background: #000000;
+		width:100%;
+		height:86px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		opacity: 0.90;
+	}
+	
+	#logo{
+		margin: 2px;
+		float: left;
+		width: 255px;
+		height: 65px;
+		background:url("images/justdancelogo1.png") no-repeat center;
+	}
+	
+	nav {
+		float: right;
+		padding: 35px 20px 20px 0;
+	}
+	#menu-icon {
+		display: hidden;
+		width: 40px;
+		height: 40px;
+		background: src(images/icon.png) center;
+	}
+	a:hover#menu-icon {
+		border-radius: 4px 4px 0 0;
+	}
+	ul {
+		list-style: none;
+	}
+	nav ul li {
+		display: inline-block;
+		float: left;
+		padding: 10px;
+	}
+	.current {
+		color: #FFF;
+		text-decoration: underline;
+	}
+	
+	.form-group, .col-sm-4, .col-sm-2, .col-sm-offset-2 {
+		font: 17px/20px Arial, San-Serif;
+		color: #000000;
+		text-align: center;
+		font-size: 100%;
+		margin:0;
+		font-weight: bold;
+	}
+	
+	.well {
+		font: 20px Times New Roman;
+		color: #000000;
+		font size: 100%;
+	}
+	
+	section {
+		width: 29%;
+		float: left;
+		margin: 2% 2%;
+		text-align: center;
+	}
+	
+	.clear {
+		clear: both;
+	}
+	footer {
+		background: #333333;
+		width: 100%;
+		overflow: hidden;
+		opacity: 0.90;
+	}
+	footer p, footer h3 {
+		color: #FFF;
+	}
+	footer p a {
+		color: #FFF;
+		text-decoration: none;
+	}
+	ul.social li {
+		display: inline;
+	}
+	ul.social li img {
+		height: 50px;
+	}
+	footer.second {
+		border-top: 1px solid #4D4E50;
+		background-color: #333333;
+		max-height: 50px;
+		text-align: center;
+		opacity: 0.95;
+	}
+	/*---------------------------------MEDIA!!!------------------------*/
+	@media screen and (max-width: 478px) {
+		body {
+			position: absolute;
+		}
+	}
+	@media screen and (max-width: 740px) {
+		header {
+			position: absolute;
+		}
+		#menu-icon {
+			display: inline-block;
+		}
+		nav ul, nav:active ul {
+			display: none;
+			position: absolute;
+			padding: 20px;
+			background: #405580;
+			border: 1px solid #FFF;
+			right: 20px;
+			top: 60px;
+			width: 50%;
+			border-radius: 2px 0 2px 2px;
+		}
+		nav li {
+			text-align: center;
+			width: 100%;
+			padding: 10px 0;
+			margin: 0;
+		}
+		nav:hover ul {
+			display: block;
+		}
+		section {
+			float: left;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="jquery.blueberry.js"> </script>
+	
+	<script>
+	$(window).load(function() {
+	$('.blueberry').blueberry();
+	});
+	</script>
+	<link rel="stylesheet" href="Contactstyle.css">
+	</head>
+	
+	<body>
+		<header>
+			<a href="index.html" id="logo"> </a>
+			<nav>
+				<a href="#" id="menu-icon"> </a>
+				<ul>
+					<li> <a href="index.html" class="current">Home</a> </li>
+					<li> <a href="Dancepedia.html" >Dancepedia </a> </li>
+					<li> <a href="videos.html" >Videos </a> </li>
+					<li> <a href="events.html" >Events </a> </li>
+					<li> <a href="article.html" >Articles </a> </li>
+					<li> <a href="tutorial.html" >Tutorials </a> </li>
+					<li> <a href="Contact.html" >Contact </a> </li>
+				</ul>
+			</nav>
+		</header>
+		
+			<br> </br>
+			<br> </br>
+				<div class="clear"></div>
+
+  <h1>Articles</h1>
+
+  <section>
+  <article>
+	<img src="images/article1.jpg" />
+    <h2>Tricia Miranda’s Top 10 Ways to Own Your Career</h2>
+    <p>Commercial superstar Tricia Miranda is everywhere. Her viral class videos dominate our YouTube feed, her choreography was seen by millions of people during Missy Elliott’s Super Bowl 50 performance and she recently completed work on her own MTV show, “Going Off.” If there’s anyone who can give advice on how to be a consummate professional, it’s Miranda. Wondering about the kinds of details that define a career and make you unforgettable? Here are Miranda’s words of wisdom.
+1. Create a choreographic signature. “You may want to copy what’s already been done, because that’s what’s hot, or getting a lot of views. But roll with your unique style. It might take longer than copying, but that’s what makes you memorable.”
+2. Know your worth. “We want to make a living doing what we love. But don’t take a job just because it’s a paycheck. Respect yourself as an artist and figure out what you feel OK with.”
+3. Love the skin you’re in. “When you’re insecure, people can sense it and no one wants to hire that. Being comfortable with yourself is huge in our industry. When you’re not chosen at an audition, it’s not a personal attack. You’re already enough.”
+4. Allow things to happen organically. “I’m a strong believer in taking your time. Walking into an audition or class with confidence is great. But choreographers see right through it when you’re in their face.”
+5. There’s a difference between “current” and “trendy.” “It’s important to stay current, because dance styles are rapidly evolving. But if you only perform or choreograph popular moves, you’re limiting yourself.”
+6. Pull your weight. “A lot of dancers like to blame their agent for not getting them gigs. But it’s a relationship in which both parties have to do work. Set up regular meetings with your agent. Tell him or her what your goals are and what kinds of jobs you want.”
+7. Polish your look. “Commercial dancers don’t have to have any particular look anymore. Find what’s natural for you and amp it up—pull the choreographer’s focus. Invest in your hair, wardrobe and makeup. Choreographers and artists want people on their team who look like stars.”
+8. Delegate, delegate, delegate. “No one person can do every single job. Pull in people who are trustworthy, work extremely hard and know what you want.”
+9. Make connections. “Networking and creating relationships is super-important. If you’re uncomfortable running up to choreographers or teachers, start by just going to a ton of classes.”
+10. Being human > being perfect. “Validation and recognition on social media shouldn’t give you a sense of entitlement. If you’re not getting called out in class, it’s no reason to feel embarrassed. Let your fans see you as someone who’s still learning. It’s healthy and important to mess up.”
+</p>
+  </article>
+  </section>
+<!-- <br> </br>
+<div class="clear"></div> -->
+
+<section>
+  <article>
+	<img src="images/article2.jpg" />
+    <h2>Jack of All Trades or Master of One?</h2>
+    <p>Ballet dancers starring on Broadway, commercial dancers performing in musicals, choreographers blurring the lines between genres: Crossover is everywhere. Even the most classical ballet companies are mixing avant-garde contemporary works into their rep, and dancers everywhere are being called upon to shift seamlessly from one style to another in the course of a single rehearsal day. Versatility seems to be the name of the game. But (almost!) no one is naturally gifted in every style of dance. So what kind of training will best prepare you to meet the demands of directors and choreographers? Does a “bit of everything” dancer risk spreading her time and talent too thin, never gaining a standout strength that directors will remember? Will laser-focusing on a favorite technique limit your career options later? We asked professionals to weigh in on the pros and cons of diversified versus specialized training.
+Specialization: Find Your Niche
+A specialized training path is critical in fields like ballet, where it can take up to a
+decade to gain the high-level technique required for a
+professional career. And being especially strong in one particular genre will give you a memorable “signature” skill that can become your calling card—a valuable asset that sets you apart.
+Mallauri Esquibel is currently a successful commercial dancer who’s worked on Broadway and TV and toured with Travis Wall’s Shaping Sound. But she says years of concentrating on ballet—daily private lessons before her jazz and hip-hop classes—made all that possible. “I was interested in everything, but I still saw myself as a ballet dancer,” she says. “Now, even though ballet is not my career, my technical training is my one-up on everyone else. I love to surprise people by being the ‘ballet girl’ in the hip-hop audition.”
+And being specialized doesn’t mean eliminating all exposure to other styles. Colburn Dance Academy in L.A. is primarily a ballet training ground, but students there are prepared for what director Jenifer Ringer calls a “blended dance world,” with a curriculum including urban dance, strength training and piano, along with two daily ballet classes. “We want to keep our students from being myopic in their thinking,” she says. “The benefit of contemporary classes is learning something you can bring to your ballet. Time spent away from ballet doesn’t cancel out ballet!”
+It might be surprising, but specialization can benefit you in the do-it-all world of competitions and conventions, too. New York City Dance Alliance executive director Joe Lanteri sees convention dancers moving easily from tap to hip hop to ballet to contemporary, but says strength, along with versatility, is necessary. “While 95 percent of the dancers we see will be successful because of their versatility, of course they’re better versed in one area or another,” he says. “From the standpoint of how to market yourself, it’s important to have something at the top of your resumé—as long as you have the skill to back it up.” That means digging deep enough to gain real confidence in one or two technical areas.
+Diversification: Try It All
+A diverse training path will allow you to more fully explore any genre that intrigues you, which can have significant artistic as well as career-related benefits. “I think the more you try, the more you experience, the more you’re going to bring to your artistic palette,” says contemporary choreographer Lauren Adams. Learning a variety of styles will also give you more to draw from when you’re improvising or making work. Adams finds that her own diverse knowledge—she has a background in everything from ballet to tap to Latin ballroom—informs her choreography by allowing her to “speak the language” of nearly any dancer.
+Some of the world’s greatest dancers stand out for their deep understanding of many different movement qualities, says Oregon Ballet Theatre artistic director Kevin Irving. In addition to studying several styles, he recommends taking workshops in improvisation or release technique, to become adaptable to various uses of space and body weight. “Being adept at learning new things is one of the most important skills a dancer can have,” he says. “Good dancing transcends stylistic applications, but part of that is knowing how to
+approach each one.” In other words: Since the demands of Jiˇrí Kylián, Marius Petipa and Bob Fosse couldn’t be further apart (and very few people are equally at home in everything), learning how to approach distinct challenges is key.
+The final word? Keep your options open. If you find that a focused training path isn’t working for you, it’s almost never too late to try a broader approach, and vice versa. And whatever path you choose, stay curious. Adams makes work on both specialists and generalists, but above all, “I love working with people who are willing to look crazy or bizarre for a moment and be outside their comfort zone,” she says. “They have a sense of humanity that inspires me to pull from unexpected places for new ideas.”
+</p>
+  </article>
+ </section>
+
+ <section> 
+  <article>
+	<img src="images/article3.jpg" />
+    <h2>Choosing a Dance Style</h2>
+    <p>Choosing a dance style seems at  first almost too obvious to talk about: just go with a dance style you're interested in and then learn to do it. But the obvious answer overlooks several questions you may want to consider before you choose.
+Is This an Interest or a Potential Profession?
+One of the catch-22s about a career in the arts is that by the time you're old enough to make an adult choice of an art form, you're probably too old learn to become a professional. While there are always exceptions most professional dancers start very young -- five or six is a typical age when future ballerinas begin taking lessons.  Principal ballerina Misty Copeland ran into some resistance early in her professional career because she didn't start ballet lessons until she was 13!
+To put this another way; if you're already an adult, the decision -- recreational interest or professional dance career -- has more or less been made for you. 
+In any case, if you're considering a dance career, know that it's an extremely demanding profession.
+If you've ever seen a flock of ballerinas leaving the concert hall, you'll notice that they all have very similar bodies with extremely developed calves. Developing those bodies took countless hours of rigorous daily practice and continual training. Ballet dancers can have wonderful lives, but mostly in the company of other ballet dancers. The same holds true for Broadway and pop dancers as well. It requires an extreme commitment that only a few persons have. 
+Most, not all, professional dancers start with ballet, then, at some point in their careers specialize in another dance form -- Broadway, for example. But taking ballet lessons is an excellent way to begin a professional dance career of almost any kind.
+If, on the other hand, you're interested in dance for social reasons -- as a way to meet and become friends with others --or as a pleasant way to exercise, you're free to choose any form of dance you like. Which kinds of dance interest you? What would you like to be able to do on a dance floor? That's a good place to begin, although there are one or two other things you may want to consider as well. 
+The Social Aspect of Dancing
+There is such a thing as solo dancing, but more often we dance with others. Each dance style tends to attract like-minded persons. If you're a 19 year-old, then choosing hip-hop is certainly a reasonable dance style choice and many of the persons you meet in dance classes or at local dance clubs that play a lot of hiphop and EDM may well become friends. 
+This doesn't mean that you have to engage only in dance styles that attract persons in your demographic. You may well want to learn a dance style that will put you in contact with persons of ages and ethnicities different from yours. That can be a great experience. But it does mean that the social aspect of dancing is important and that you need to consider consciously the social experience you want to have when you're choosing a particular dance style.
+The Benefit of Experimenting
+When your reasons for choosing a dance style are social and recreational, you may find that "dabbling," although frowned upon by some, is exactly the right thing to do. You may be attracted to flamenco, for instance, but wonder how you would fit in socially. The best way to find out is to try it. You may be that middle-aged suburbanite who's attracted to hip-hop. How would that work? Again, there's a good way to find out. 
+Once you've tried a couple of different dance styles, you might even find that you'd like to try more -- that experimenting is part of the fun. Meeting persons you might not otherwise meet might be one of the benefits. 
+</p>
+  </article>
+ </section>
+
+
+<footer>
+		
+			<section> 
+				<h3><b> Just Dance </b></h3>
+				<p><b> 8975489523 </b> <br><br></p>
+			</section>
+			
+			<section>
+				<h3>Connect with us! </h3>
+				<ul class="social">
+					<li><a href="#"><img src="images/facebook1.png" /></a></li>
+					<li><a href="#"><img src="images/googleplus.png" /></a></li>
+					<li><a href="#"><img src="images/twitter1.png" /></a></li>
+					<li><a href="#"><img src="images/youtube.png" /></a></li>
+				</ul>
+			</section>
+			<section>
+				<img src="images/footerdance.png" />
+			</section>
+		</footer>
+		<footer class="second">
+			<p>@Copyright- JUST DANCE!,2017</p>
+		</footer>
+		
+	</body>
+</html>

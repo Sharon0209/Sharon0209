@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-a" />
+	<title>JUST DANCE! </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.8">
+	<link rel="stylesheet" href="blueberry.css" />
+	<style type="text/css">
+	
+	*{
+		margin:0;
+		border:0;
+		padding:0;
+	}
+	body {
+		background: #f0f0f0;
+		font: 14px/20px Arial, San-Serif;
+		color: #555;
+		margin:0;
+	}
+	h1 {
+		text-align: center;
+		font-size: 180%;
+		line-height:120%;
+		padding: 5% 0;
+	}
+	h2 {
+		text-decoration: underline;
+		line-height:280%;
+		padding-left: 2%;
+	}
+	h3 {
+		line-height: 110px;
+		padding: 5% 0;
+	}
+	p {
+		padding: 1%;
+	}
+	img {
+		text-align: center;
+		max-width:100%;
+		height: auto;
+		width: auto;
+	}
+	a {
+		color: #FFF;
+		text-decoration: none;
+		font-weight: bold;
+	}
+	a:hover {
+		color: #FFF;
+		text-decoration: underline;
+	}
+	header {
+		background: #000000;
+		width:100%;
+		height:86px;
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100;
+		opacity: 0.90;
+	}
+	#logo{
+		margin: 20px;
+		float: left;
+		width: 275px;
+		height: 60px;
+		background:url("images/justdancelogo1.png") no-repeat center;
+	}
+	nav {
+		float: right;
+		padding: 35px 20px 20px 0;
+	}
+	#menu-icon {
+		display: hidden;
+		width: 40px;
+		height: 40px;
+		background: src(images/icon.png) center;
+	}
+	a:hover#menu-icon {
+		border-radius: 4px 4px 0 0;
+	}
+	ul {
+		list-style: none;
+	}
+	nav ul li {
+		display: inline-block;
+		float: left;
+		padding: 10px;
+	}
+	.current {
+		color: #FFF;
+		text-decoration: underline;
+	}
+	section {
+		width: 45%;
+		float: left;
+		margin: 2% 2%;
+		text-align: center;
+	}
+	<!-- section1 {
+		width: 29%;
+		float: left;
+		margin: 2% 2%;
+		text-align: center;
+	}
+	section2 {
+		width: 47%;
+		float: right;
+		margin: -4% 2%;
+		text-align: center;
+	}
+	
+	section3 {
+		width: 29%;
+		float: left;
+		margin: 0% 2%;
+		text-align: center;
+	}
+	section4 {
+		width: 47%;
+		float: right;
+		margin: 0% 2%;
+		text-align: center;
+	} -->
+	
+	.clear {
+		clear: both;
+	}
+	footer {
+		background: #333333;
+		width: 100%;
+		overflow: hidden;
+		opacity: 0.90;
+	}
+	footer p, footer h3 {
+		color: #FFF;
+	}
+	footer p a {
+		color: #FFF;
+		text-decoration: none;
+	}
+	ul.social li {
+		display: inline;
+	}
+	ul.social li img {
+		height: 50px;
+	}
+	footer.second {
+		border-top: 1px solid #4D4E50;
+		background-color: #333333;
+		max-height: 50px;
+		text-align: center;
+		opacity: 0.95;
+	}
+	/*---------------------------------MEDIA!!!------------------------*/
+	@media screen and (max-width: 478px) {
+		body {
+			position: absolute;
+		}
+	}
+	@media screen and (max-width: 740px) {
+		header {
+			position: absolute;
+		}
+		#menu-icon {
+			display: inline-block;
+		}
+		nav ul, nav:active ul {
+			display: none;
+			position: absolute;
+			padding: 20px;
+			background: #405580;
+			border: 1px solid #FFF;
+			right: 20px;
+			top: 60px;
+			width: 50%;
+			border-radius: 2px 0 2px 2px;
+		}
+		nav li {
+			text-align: center;
+			width: 100%;
+			padding: 10px 0;
+			margin: 0;
+		}
+		nav:hover ul {
+			display: block;
+		}
+		section {
+			float: left;
+			width: 100%;
+			margin: 0;
+			padding: 0;
+		}
+	}
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+	<script src="jquery.blueberry.js"> </script>
+	
+	<script>
+	$(window).load(function() {
+	$('.blueberry').blueberry();
+	});
+	</script>
+	<link rel="stylesheet" href="videostyle.css">
+	</head>
+	
+	<body>
+		<header>
+			<a href="index.html" id="logo"> </a>
+			<nav>
+				<a href="#" id="menu-icon"> </a>
+				<ul>
+					<li> <a href="index.html" class="current">Home</a> </li>
+					<li> <a href="Dancepedia.html" >Dancepedia </a> </li>
+					<li> <a href="videos.html" >Videos </a> </li>
+					<li> <a href="article.html" >Articles </a> </li>
+					<li> <a href="tutorial.html" >Tutorials </a> </li>
+					<li> <a href="Contact.html" >Contact </a> </li>
+				</ul>
+			</nav>
+		</header>
+		
+			<br> </br>
+			<br> </br>
+			<section>
+				<h2> Hip-Hop Dance Videos</h2>
+					<ul> 
+						<li> <p>  <font size="3">1. Shalom Andrews and Trilochan Choreography on <em><b> 'We Don't Talk Anymore- Charlie Puth' </b></em></font></p><iframe width="500" height="330" src="https://www.youtube.com/embed/7em230zJ3NU?rel=0" frameborder="0" allowfullscreen></iframe></li>
+						<br> </br>
+						<li> <p> <font size="3">2. Tricia Miranda's Choreography on the song <em><b>'All The Way Up'</b></em></font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=z0mAyQnuE8c'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">3. Kyle Hanagami Choreography on the song <em><b>'Shape of You- Ed Sheeran'</b></em></font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=Kl5B6MBAntI'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">4. Sushant Khatri Choreography on the song <em><b>'Dance The Way You Dance'</b></em></font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=LXApJTWVqow'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">5. Lia Kim Choreography on the song <em><b>'Closer'</b></em></font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=x0vMeMUAuRk'"> Play 
+									</div>
+							 </p>
+					</ul>
+			
+			</section>
+		
+			<br> </br>
+			<br> </br>
+			<section>
+				<h2> Contemporary Dance</h2>
+					<ul> 
+						<li> <p>  <font size="3">1. Kate Jablonski and Beyond Words Dance Company Choreography on <em><b> 'In This Shirt' </b></em></font></p> <iframe width="500" height="330" src="https://www.youtube.com/embed/sEKZj-H7qa8?rel=0" frameborder="0" allowfullscreen></iframe></li>
+						<br> </br>
+						<li> <p> <font size="3">2. Terence Lewis Contemporary Dance Co - Solo @ Bailamos 2016 </font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=XuY0xnbZGvs'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">3. @PhillipChbeeb & Renee Kester | @ElliotMossMusic <em><b>'SLIP'</b></em></font> &nbsp;
+									<div class="button" onclick="window.location.href='https://https://www.youtube.com/watch?v=qk00gbDwGqM'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">4. Jonathan Lutwyche Choreography on the song <em><b>'Human'</b></em></font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=YKedeF57oqo'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">5. Stance Dance Choreography on the song <em><b>'A Thousand Years'</b></em></font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=8-C2m8hSrjk'"> Play 
+									</div>
+							 </p>
+					</ul>
+			
+			</section>
+			
+			<div class="clear"> </div>
+			<section>
+				<h2> Indian Classical Dance </h2>
+					<ul> 
+						<li> <p>  <font size="3">1. Manju Warrier's Bharatnatyam Dance </p> <iframe width="500" height="330" src="https://www.youtube.com/embed/UTZD06_HSe0?rel=0" frameborder="0" allowfullscreen></iframe></li>
+						<br> </br>
+						<li> <p> <font size="3">2.  Svetlana Tulasi Kathak Dance on the song <em><b>'Mohe Rang Do Laal'</b></em></font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=hVvs1NO84Gc'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">3. Garba Dance Choreography by Gujrati Folk Dancers </font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=MkvGUZJuOjA'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">4. Odissi Dance by Sujata Mohapatra - Pallavi </font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=gbboaq1a0Rs'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">5. Bhangra Empire dance performance </font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=gFBOfGbHDPU'"> Play 
+									</div>
+							 </p>
+					</ul>
+			
+			</section>
+			
+			
+			<section>
+				<h2> Latin American Dance</h2>
+					<ul> 
+						<li> <p>  <font size="3">1. Susanna Reid & Kevin dance the Paso Doble on the song <em><b>  'Los Toreadors' </b></em></font></p> <iframe width="500" height="330" src="https://www.youtube.com/embed/7ONCE5aGfaQ?rel=0" frameborder="0" allowfullscreen></iframe></li>
+						<br> </br>
+						<li> <p> <font size="3">2. Hayley and Leonardo - Argentine tango </font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=tcreQPUgt4k'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">3. Salsa Dance Choreography </font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=c4aH458jdQE'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">4. Tap Choreography on the song <em><b>'Rodrigo y Gabriela'</b></em></font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=X-9Wuv3Wsuk'"> Play 
+									</div>
+							 </p>
+						<li> <p> <font size="3">5. Samba Dance Choreography on the song <em><b>'Sergio Mendes'</b></em></font> &nbsp;
+									<div class="button" onclick="window.location.href='https://www.youtube.com/watch?v=JmNs32l5iUQ'"> Play 
+									</div>
+							 </p>
+					</ul>
+			
+			</section>
+		
+		
+		
+		<footer>
+		
+			<section> 
+				<h3><b> Just Dance </b></h3>
+				<p><b> 8975489523 </b> <br><br></p>
+			</section>
+			
+			<section>
+				<h3>Connect with us! </h3>
+				<ul class="social">
+					<li><a href="#"><img src="images/facebook1.png" /></a></li>
+					<li><a href="#"><img src="images/googleplus.png" /></a></li>
+					<li><a href="#"><img src="images/twitter1.png" /></a></li>
+					<li><a href="#"><img src="images/youtube.png" /></a></li>
+				</ul>
+			</section>
+			<section>
+				<img src="images/footerdance.png" />
+			</section>
+		</footer>
+		<footer class="second">
+			<p>@Copyright- JUST DANCE!,2017</p>
+		</footer>
+		
+	</body>
+</html>
+
